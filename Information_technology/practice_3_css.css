@@ -1,0 +1,22 @@
+#intro{
+	color: blue;
+	text-align: center;
+	font-family: cursive;
+	text-decoration: underline;
+}
+.me{
+	color: red;
+	font-family: cursive;
+}
+.abc{
+	border-style: groove;
+}
+#link:link{
+	color:blue;
+}
+#link:visited{
+	color:red;
+}
+#link:hover{
+	color:purple;
+}

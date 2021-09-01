@@ -1,0 +1,48 @@
+<html>
+	<head>
+	<title>pets</title>
+	</head>
+	<body>
+		<h1 align="center"> <u>Pet form</u></h1>
+		<form>
+			<fieldset>  
+			<legend>Pet's Information:</legend>
+			<label for="name">Enter pet's name</label><br>
+			<input type="text" id="name" name="name"><br>  
+			</br>
+			<label for="age">Choose pet's age</label><br>
+			<select name = "dropdown">
+				<option value = "0-1" selected>0-1 years</option>
+				<option value = "1-2">1-2 years</option>
+				<option value = "3-4">3-4 years</option>
+				<option value = "4-5">4-5 years</option>
+				<option value = "5 and above">5 and above years</option>
+            </select>
+			</br>
+			</br>
+			<label for="wieght">Choose pet's weight</label><br>
+			<input type = "radio" name = "weight" value = "below 5 kg"> Below 5 kg
+            <input type = "radio" name = "weight" value = "between 5-10 kg"> Between 5-10 kg
+			<input type = "radio" name = "weight" value = "above 10 kg"> Above 10 kg
+			</br>
+			</br>
+			<label for="type">Choose pet's type</label><br>
+			<select name = "dropdown">
+				<option value = "cats" selected>cats</option>
+				<option value = "dogs">dogs</option>
+				<option value = "birds">birds</option>
+				<option value = "rabbits">rabbits</option>
+				<option value = "fish">fish</option>
+				<option value = "rats">rats</option>
+				<option value = "other">other</option>
+            </select>
+			</br>
+			</br>
+			<label for="likes">What it likes the most?</label><br>
+			<textarea rows = "5" cols = "50" name = "description">Enter what your pet's like the most here...</textarea>
+			</br>
+			</br>
+			<button>Submit</button>
+		</form>
+	</body>
+</html>
